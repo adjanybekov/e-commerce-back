@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://bookstorekg.herokuapp.com")
 @RequestMapping("/api/v1/books")
 public class BookController {
 
